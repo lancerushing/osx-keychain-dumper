@@ -18,7 +18,8 @@ Need to allow the "script editor" to access the user prompts.
 
 1. Open "Script Editor"
 2. paste in the [key-chain-dump-prompt.applescript](key-chain-dump-prompt.applescript)
-3. click palay
+3. Change your-username and your-password accordingly
+4. click the "play" button
 
 Then:
 
