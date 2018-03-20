@@ -17,7 +17,7 @@ Need to allow the "script editor" to access the user prompts.
 ## To Run 
 
 1. Open "Script Editor"
-2. paste in the key-chain-dump-prompt.applescript
+2. paste in the [key-chain-dump-prompt.applescript](key-chain-dump-prompt.applescript)
 3. click palay
 
 Then:
@@ -32,7 +32,7 @@ Then:
 
 # Notes to self
 
-I used the Accessibility Inspector to determine the correct systax for the apple script
+I used the Accessibility Inspector to determine the correct syntax for the apple script
 
 
 ## References
