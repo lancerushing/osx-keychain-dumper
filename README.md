@@ -1,11 +1,18 @@
 
-# Quick Key Chain Dumper
+# OSX Key Chain Dumper
 
 Tested on OS X El Capitan ver 10.11.6
 
+Use case: You need to get your wifi passwords out for backup, or migration to another OS.
+
+This process requires two parts: 
+
+1. Running the 'security' command line tool.
+2. An AppleScript to keep clicking "allow" and/or enter the admin password.
+
 ## Setup 
 
-Need to allow the "script editor" to access the user prompts.
+First, you need to allow the "script editor" access the security prompts.
 
 1. Go to preferences
 2. Open Security & Privacy
@@ -29,11 +36,18 @@ Then:
 	$ security dump-keychain -d > keychain_all.txt
 ````
 
+## Extract Wifi Credentials From Dump File
+
+To extract the wifi ssids and passwords from the dump file, run the provided [extract-wifi.py](extract-wifi.py) python script.
+
+````bash
+        $ python extract-wifi.py  
+````
 
 
 # Notes to self
 
-I used the Accessibility Inspector to determine the correct syntax for the apple script
+I used the Accessibility Inspector to determine the correct syntax for the apple script.
 
 
 ## References
